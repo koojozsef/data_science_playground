@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Video Generator",
+            "type": "shell",
+            "command": "python main.py '/home/koojozsef/git-repos/data_science_playground/mini_projects/video_generator_ai/data/4608285-uhd_3840_2160_24fps - frame at 0m1s.jpg' '/home/koojozsef/git-repos/data_science_playground/mini_projects/video_generator_ai/data/4608285-uhd_3840_2160_24fps - frame at 0m2s.jpg' --num_interpolations 100 --output data/output.mp4",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}
